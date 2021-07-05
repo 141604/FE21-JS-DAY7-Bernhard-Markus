@@ -12,7 +12,10 @@
     <!--swiper css styles -->
        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
-    <!-- Demo styles -->
+    <!-- SweetAlert CSS from CDN -->
+    <link rel="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css" />
+
+    <!-- Demo styles from Swiper-->
         <style>
         html,
         body {
@@ -117,7 +120,17 @@
                 </div>
             </main>
 
-                    <!-- Swiper JS -->
+            <!--------------- footer section --------------->
+            <footer>
+                <img src="img/logo.png" alt="logo">
+                <span>Markus Kamitz - CodeFactory 2021</span>
+            </footer>
+            <!--------------- end footer section ----------->
+
+            <!-- SweetAlert JS from CDN -->
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+
+            <!-- Swiper JS -->
             <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
             <!-- Initialize Swiper -->
@@ -135,14 +148,12 @@
                 el: ".swiper-pagination",
                 },
             });
+
+            // Try me! 
+            //Swal.fire('Any fool can use a computer');
+
             </script>
 
-            <!--------------- footer section --------------->
-            <footer>
-                <img src="img/logo.png" alt="logo">
-                <span>Markus Kamitz - CodeFactory 2021</span>
-            </footer>
-            <!--------------- end footer section ----------->
 
         </div>
     </body>
